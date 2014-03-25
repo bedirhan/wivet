@@ -1,0 +1,121 @@
+/* CSS Document */
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Tahoma, Sans Serif;
+  font-size: 10pt;
+  background-color: #FFFFE0;
+}
+
+body.body{
+  background-color: #FFFFE0;
+  padding-top: 20px;
+}
+
+body.menu{
+  background-color: #F0E68C;
+}
+
+body.header{
+  background-color: #E6E6FA;
+}
+
+a{
+  color: #5F9EA0;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #008B8B;
+  text-decoration: underline;
+}
+
+input{
+  border: 1px solid black;
+}
+input.button{
+  width: 70px; 
+}
+/************ HEADER CSS ***************/
+h3.headerwelcome{
+  padding: 10px 0px 0px 10px;
+  margin-bottom: 0px;
+}
+
+span.about{
+  padding: 8px 0px 0px 10px;
+  font-size: 10pt;
+}
+
+span.version{
+  padding-left: 5px;
+  font-size: 9pt;
+  font-weight: normal;
+}
+
+/************ HEADER CSS F ***************/
+
+/************ MENU CSS ***************/
+div.menulinks{
+  margin-left: 10px;  
+  margin-top: 20px;
+}
+
+div.menulink{
+  margin-top: 5px;
+}
+/************ MENU CSS F ***************/
+
+/************ CURRENT/STATISTICS CSS ***************/
+table.list{
+width: 95%;
+background-color: #fafafa;
+border: 1px #000000 solid;
+border-collapse: collapse;
+border-spacing: 0px; 
+}
+
+
+table.list th{ 
+background-color: #99CCCC;
+border: 1px #000000 solid;
+font-family: Verdana;
+font-weight: bold;
+font-size: 12px;
+color: #404040; 
+}
+
+table.list td{ 
+border-bottom: 1px #6699CC dotted;
+text-align: left;
+font-family: Verdana, sans-serif, Arial;
+font-weight: normal;
+font-size: .7em;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 8px;
+padding-right: 0px; 
+}
+
+
+table.list tr.even td{
+  background-color: #fafafa;
+  color: #404040;
+}
+
+table.list tr.odd td{
+  background-color: #dfdfdf;
+  color: #404040;
+}
+
+table.list tr.miss td{
+  background-color: #a139f4;
+  color: #ffffff;
+}
+
+span.explanation{
+  font-size: 8pt;
+}
+
+/************ CURRENT/STATISTICS CSS F ***************/

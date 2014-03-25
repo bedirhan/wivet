@@ -1,0 +1,56 @@
+1_12c3b#link creation after some time w/ setTimeout
+1_25e2a#link creation after button click
+2_1f84b#self referencing link
+2_2b7a3#self referencing link with random query string
+3_45589#multi-page form with a single path to final destination
+4_1c3f8#link href js protocol
+5_1e4d2#div onmouseover window.open
+6_14b3c#form submit thru select onchange w/ simple alert
+7_16a9c#form submit button onclick
+8_1b6e1#link in html comment
+8_2b6f1#relative link in html comment
+9_1a1b2#span onclick window.location
+9_2ff21#span onmouseout window.location.href
+9_3a2b7#span onmousedown document.location.href
+9_4b82d#span onmouseup document.location
+9_5ee31#p onclick window.location.href
+9_6ee31#p onmouseout window.location.href
+9_7ee31#p onmousedown window.location.href
+9_8ee31#p onmouseup window.location.href
+9_9ee31#div onclick window.location.href
+9_10ee31#div onmouseout window.location.href
+9_11ee31#div onmousedown window.location.href
+9_12ee31#div onmouseup window.location.href
+9_13ee31#td onclick window.location.href
+9_14ee31#td onmouseout window.location.href
+9_15ee31#td onmousedown window.location.href
+9_16ee31#td onmouseup window.location.href
+9_17ee31#tr onclick window.location.href
+9_18ee31#tr onmouseout window.location.href
+9_19ee31#tr onmousedown window.location.href
+9_20ee31#tr onmouseup window.location.href
+9_21ee31#li onclick window.location.href
+9_22ee31#li onmouseout window.location.href
+9_23ee31#li onmousedown window.location.href
+9_24ee31#li onmouseup window.location.href
+9_25ee31#radio onclick window.location.href
+9_26dd2e#unattached js function document.location
+10_17d77#link href js protocol window.location w/ alert override
+11_1f2e4#link href jquery
+11_2d3ff#a href javascript protocol window.open
+12_1a2cf#iframe
+12_2a2cf#frame created dynamically
+12_3a2cf#iframe created dynamically
+13_10ad3#xhr initiating
+13_25af3#link created thru xhr response
+14_1eeab#meta refresh tag
+15_1c95a#form action with javascript protocol set
+16_1b14f#302 redirection
+16_2f41a#302 redirection link in response body
+17_143ef#xhr with a busy mode page 1
+17_2da76#xhr with a busy mode page 2
+18_1a2f3#heavy js library standard form creation
+19_1f52a#link attached to a swf simple button onclick event
+19_2e3a2#link attached to a swf simple button parameterized onclick event
+20_1e833#html encoded links
+21_1f822#protocol relative links
