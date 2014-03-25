@@ -205,6 +205,32 @@
 		return $scans;
 	}
 
+	function clearScans(){
+		GLOBAL $db;
+		if(DATASTORE == 'db') {
+			// add database version 
+			loaddb();
+			
+			// Clear the scans DB
+			$sql = "DELETE FROM pageVisits WHERE 1=1";
+			$rs = mysql_query($sql, $db);
+
+			// Clear the pageVisits DB
+			$sql = "DELETE FROM scans WHERE 1=1";
+			$rs = mysql_query($sql, $db);
+		} else {  // using temp files
+
+		    // open stats directory 
+		    $dir = opendir($_SESSION['statisticsdir']);
+		    while($entry = readdir($dir)) {
+		    	if ( preg_match('/.dat$/', $entry) ){
+		        	unlink( $_SESSION['statisticsdir'] . $entry );
+		        }
+		    }
+		}
+
+	}
+
 	function fileExists($filename){
 		return is_file($_SESSION['statisticsdir'] . $filename . ".dat");
 	}
