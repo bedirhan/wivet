@@ -1,5 +1,5 @@
 <?php
-  require_once('../genclude.php');
+  require_once('genclude.php');
   
   // Unset all of the session variables.
   $_SESSION = array();
