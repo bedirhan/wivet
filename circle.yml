@@ -6,7 +6,7 @@ machine:
 dependencies:
   pre:
     # Get the latest pip
-    - pip install --upgrade pip
+    - sudo pip install --upgrade pip
     - pip --version
 
     # Compose to test our setup
@@ -25,7 +25,7 @@ dependencies:
 test:
   override:
     # Run the recently built image and mysql
-    - docker-compose --project-name test --file compose.yml up -d
+    - sudo docker-compose --project-name test --file compose.yml up -d
     - sleep 10
 
     # Smoke test
