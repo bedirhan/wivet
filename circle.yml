@@ -10,7 +10,7 @@ dependencies:
     - pip --version
 
     # Compose to test our setup
-    - sudo pip install docker-compose=1.2.0
+    - sudo pip install docker-compose==1.2.0
 
     # Debugging
     - pip freeze
