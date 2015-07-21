@@ -38,7 +38,7 @@ deployment:
     owner: andresriancho
     commands:
       # Save docker hub credentials to file
-      - sed "s/<EMAIL>/$DOCKER_EMAIL/;s/<AUTH>/$DOCKER_AUTH/" < extras/docker/dockercfg.template > ~/.dockercfg
+      - sed "s/<EMAIL>/$DOCKER_EMAIL/;s/<AUTH>/$DOCKER_AUTH/" < ci/dockercfg.template > ~/.dockercfg
 
       # Push it
       - docker push andresriancho/wivet:latest
