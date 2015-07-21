@@ -1,0 +1,4 @@
+php:
+  image: andresriancho/wivet:latest
+  ports:
+    - "8899:80"
