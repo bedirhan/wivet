@@ -18,7 +18,7 @@ dependencies:
     - docker version
 
     # Build the docker image
-    - sudo docker pull andresriancho/wivet
+    #- sudo docker pull andresriancho/wivet
     - sudo docker build -t andresriancho/wivet .
 
 
