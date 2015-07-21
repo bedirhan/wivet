@@ -11,6 +11,7 @@ dependencies:
 
     # Compose to test our setup
     - sudo pip install docker-compose==1.2.0
+    - sudo pip install requests==2.6.1
 
     # Debugging
     - pip freeze
@@ -18,7 +19,6 @@ dependencies:
     - docker version
 
     # Build the docker image
-    #- sudo docker pull andresriancho/wivet
     - sudo docker build -t andresriancho/wivet .
 
 
