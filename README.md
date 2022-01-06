@@ -9,4 +9,4 @@ WIVET provides a good sum of input vectors to any extractor and presents the res
 
 Here's the [Cheers List](https://github.com/bedirhan/wivet/wiki/Cheers-List)
 
-### I don't maintain this archaic repo anymore. If interested, I would be happy see someone improving. I also have a document of future work ideas somewhere :) ###
+### I don't maintain this archaic repo anymore. If interested, I would be happy to see someone improving. I also have a document of future work ideas somewhere :) ###
